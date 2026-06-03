@@ -1,0 +1,19 @@
+﻿@model BookReviewHub.Models.ReviewFormViewModel
+
+<form method="post" asp-action="AddReview">
+    <input type="hidden" name="BookId" value="@Model.BookId" />
+
+    <div class="mb-2">
+        <label>Your Name</label>
+        <input name="ReviewerName" class="form-control" required />
+    </div>
+    <div class="mb-2">
+        <label>Rating (1–5)</label>
+        <input type="number" name="Rating" class="form-control" min="1" max="5" required />
+    </div>
+    <div class="mb-2">
+        <label>Comment</label>
+        <textarea name="Comment" class="form-control" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-success">Submit Review</button>
+</form>
