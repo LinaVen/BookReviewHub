@@ -26,11 +26,12 @@ development, database integration, and RESTful API communication.
 - Bootstrap
 - JavaScript
 - Visual Studio
+- Swagger / OpenAPI
 
 ## ✨ Main Features
 
 - Browse book information
-- Submit and manage book reviews
+- Submit and view book reviews
 - Database integration using Entity Framework Core
 - RESTful API communication
 - Responsive web interface using Bootstrap
@@ -55,7 +56,7 @@ development, database integration, and RESTful API communication.
 - Database design and management
 - Entity Framework Core
 - C# programming
-- Problem-solving and debugging
+- REST API testing and debugging
 
 ## 👩‍💻 Developer
 
