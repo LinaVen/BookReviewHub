@@ -73,3 +73,41 @@ and cloud technologies.
 The screenshot below shows the BookReviewHub application, including book details, submitted reviews, star ratings, and the review submission form.
 
 ![BookReviewHub Application Screenshot](bookreviewhub-screenshot.png)
+
+## 🚀 How to Run the Project
+
+### Prerequisites
+
+Before running the application, make sure you have:
+
+- Visual Studio 2022 or later
+- .NET SDK compatible with the project
+- SQL Server Express LocalDB (installed with Visual Studio)
+- SQL Server Management Studio (SSMS) — optional
+
+### Installation
+
+1. Clone or download this GitHub repository.
+2. Open the project solution (.sln) in Visual Studio.
+3. Restore the NuGet packages.
+4. Check the `DefaultConnection` connection string in `appsettings.json`. By default, the application uses SQL Server Express LocalDB and creates a database named `BookReviewHubDB`.
+5. Open **Tools → NuGet Package Manager → Package Manager Console** in Visual Studio.
+
+6. Run the following command to apply the existing database migrations:
+
+   ```powershell
+   Update-Database
+   ```
+
+7. Build the solution.
+
+8. Run the application using Visual Studio.
+
+### Application Features
+
+Once the application is running, you can:
+
+- Browse available books.
+- View book details.
+- Read existing reviews and ratings.
+- Submit new book reviews.
