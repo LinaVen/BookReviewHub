@@ -25,5 +25,38 @@ namespace BookReviewHub.Controllers
             var book = await _httpClient.GetFromJsonAsync<Book>($"https://localhost:7253/api/BooksApi/{id}");
             return View(book);
         }
+        // POST: BooksMvc/AddReview
+[HttpPost]
+[ValidateAntiForgeryToken]
+public async Task<IActionResult> AddReview(ReviewFormViewModel model)
+{
+    // Validate the submitted review
+    if (!ModelState.IsValid)
+    {
+        return RedirectToAction("Details", new { id = model.BookId });
     }
+
+    // Prepare the review
+    var review = new Review
+    {
+        BookId = model.BookId,
+        ReviewerName = model.ReviewerName,
+        Rating = model.Rating,
+        Comment = model.Comment
+    };
+
+    // Send the review to our Web API
+    var response = await _httpClient.PostAsJsonAsync(
+        "https://localhost:7253/api/BooksApi/reviews", review);
+
+    if (!response.IsSuccessStatusCode)
+    {
+        return BadRequest("Unable to save the review.");
+    }
+
+    // Return to the book details page
+    return RedirectToAction("Details", new { id = model.BookId });
+}
+    }
+
 }
