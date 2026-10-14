@@ -59,7 +59,7 @@ development, database integration, and RESTful API communication.
 
 ## 👩‍💻 Developer
 
-**Lina Venckus**
+**Lina Venckus (Venckuviene)**
 
 Computer Science Graduate  
 Atlantic Technological University (ATU), Ireland
@@ -67,3 +67,9 @@ Atlantic Technological University (ATU), Ireland
 Interested in graduate and junior software development
 opportunities, particularly in .NET, backend development,
 and cloud technologies.
+
+## 📸 Application Screenshot
+
+The screenshot below shows the BookReviewHub application, including book details, submitted reviews, star ratings, and the review submission form.
+
+![BookReviewHub Application Screenshot](bookreviewhub-screenshot.png)
