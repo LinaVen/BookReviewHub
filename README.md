@@ -71,9 +71,22 @@ and cloud technologies.
 
 ## 📸 Application Screenshot
 
+### Book List
+
+The home page displays books with their titles, authors, genres, and links to view more details.
+
+![BookReviewHub Book List](book-list.png)
+
+### Book Details and Reviews
+
+The book details page displays reviews, star ratings, and a form for submitting new reviews.
+
+![BookReviewHub Application Screenshot](bookreviewhub-screenshot.png)
+
 The screenshot below shows the BookReviewHub application, including book details, submitted reviews, star ratings, and the review submission form.
 
 ![BookReviewHub Application Screenshot](bookreviewhub-screenshot.png)
+
 
 ## 🚀 How to Run the Project
 
