@@ -112,3 +112,11 @@ Once the application is running, you can:
 - View book details.
 - Read existing reviews and ratings.
 - Submit new book reviews.
+
+## 🗄️ Sample Database
+
+This project includes a sample SQL Server database with 25 books across five genres, along with sample reviews and star ratings.
+
+📁 [Download the sample database and view setup instructions](database/README.md)
+
+The database is provided as a `.bacpac` file and can be imported using SQL Server Management Studio (SSMS).
