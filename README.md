@@ -81,7 +81,7 @@ The home page displays books with their titles, authors, genres, and links to vi
 
 The book details page displays reviews, star ratings, and a form for submitting new reviews.
 
-![BookReviewHub Application Screenshot](bookreviewhub-screenshot.png)
+![Book Details and Reviews](book-details.png)
 
 The screenshot below shows the BookReviewHub application, including book details, submitted reviews, star ratings, and the review submission form.
 
