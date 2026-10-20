@@ -3,7 +3,7 @@
 
 This folder contains a sample SQL Server database for the BookReviewHub application.
 
-## Database Backup
+## Sample Database Export
 
 File: [BookReviewHubDB_Updated.bacpac](BookReviewHubDB_Updated.bacpac)
 
