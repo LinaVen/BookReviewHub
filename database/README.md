@@ -5,7 +5,7 @@ This folder contains a sample SQL Server database for the BookReviewHub applicat
 
 ## Database Backup
 
-File: `BookReviewHubDB_Updated.bacpac`
+File: [BookReviewHubDB_Updated.bacpac](BookReviewHubDB_Updated.bacpac)
 
 The database contains:
 - 25 sample books across five genres
