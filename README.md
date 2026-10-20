@@ -83,8 +83,6 @@ The book details page displays reviews, star ratings, and a form for submitting 
 
 ![Book Details and Reviews](book-details.png)
 
-The screenshot below shows the BookReviewHub application, including book details, submitted reviews, star ratings, and the review submission form.
-
 ## 🚀 How to Run the Project
 
 ### Prerequisites
