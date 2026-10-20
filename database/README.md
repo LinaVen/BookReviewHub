@@ -12,7 +12,7 @@ The database contains:
 - Book titles and authors
 - Sample book reviews and star ratings
 
-## How to Restore the Database
+## How to Import the Database
 
 1. Open SQL Server Management Studio (SSMS).
 2. Connect to your SQL Server instance.
